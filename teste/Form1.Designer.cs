@@ -39,6 +39,7 @@
             this.checkBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkListBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.componentesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.dateTimePickerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -115,7 +116,8 @@
             this.componentesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.checkBoxToolStripMenuItem,
             this.checkListBoxToolStripMenuItem,
-            this.componentesToolStripMenuItem1});
+            this.componentesToolStripMenuItem1,
+            this.dateTimePickerToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -140,6 +142,13 @@
             this.componentesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.componentesToolStripMenuItem1.Text = "Combo Box";
             this.componentesToolStripMenuItem1.Click += new System.EventHandler(this.componentesToolStripMenuItem1_Click);
+            // 
+            // dateTimePickerToolStripMenuItem
+            // 
+            this.dateTimePickerToolStripMenuItem.Name = "dateTimePickerToolStripMenuItem";
+            this.dateTimePickerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dateTimePickerToolStripMenuItem.Text = "Date Time Picker";
+            this.dateTimePickerToolStripMenuItem.Click += new System.EventHandler(this.dateTimePickerToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -180,5 +189,6 @@
         private ToolStripMenuItem checkBoxToolStripMenuItem;
         private ToolStripMenuItem checkListBoxToolStripMenuItem;
         private ToolStripMenuItem componentesToolStripMenuItem1;
+        private ToolStripMenuItem dateTimePickerToolStripMenuItem;
     }
 }

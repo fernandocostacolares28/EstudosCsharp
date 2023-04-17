@@ -16,6 +16,9 @@
     <Compile Update="F_ComboBox.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="F_DateTimerPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="F_ListaNomes.cs">
       <SubType>Form</SubType>
     </Compile>

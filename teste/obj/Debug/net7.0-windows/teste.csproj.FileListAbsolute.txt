@@ -41,3 +41,4 @@ C:\Users\Fernando\Documents\GitHub\EstudosCsharp\teste\obj\Debug\net7.0-windows\
 C:\Users\Fernando\Documents\GitHub\EstudosCsharp\teste\obj\Debug\net7.0-windows\teste.genruntimeconfig.cache
 C:\Users\Fernando\Documents\GitHub\EstudosCsharp\teste\obj\Debug\net7.0-windows\ref\teste.dll
 C:\Users\Fernando\Documents\GitHub\EstudosCsharp\teste\obj\Debug\net7.0-windows\teste.F_ComboBox.resources
+C:\Users\Fernando\Documents\GitHub\EstudosCsharp\teste\obj\Debug\net7.0-windows\teste.F_DateTimerPicker.resources

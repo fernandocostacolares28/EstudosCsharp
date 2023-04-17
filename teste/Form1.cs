@@ -53,5 +53,11 @@ namespace teste
             F_ComboBox f_ComboBox = new F_ComboBox();
             f_ComboBox.ShowDialog();
         }
+
+        private void dateTimePickerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_DateTimerPicker f_DateTimerPicker = new F_DateTimerPicker();
+            f_DateTimerPicker.ShowDialog();
+        }
     }
 }
