@@ -28,20 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
+            lb_linkRepositorio = new LinkLabel();
             SuspendLayout();
+            // 
+            // lb_linkRepositorio
+            // 
+            lb_linkRepositorio.AutoSize = true;
+            lb_linkRepositorio.Location = new Point(115, 52);
+            lb_linkRepositorio.Name = "lb_linkRepositorio";
+            lb_linkRepositorio.Size = new Size(67, 15);
+            lb_linkRepositorio.TabIndex = 0;
+            lb_linkRepositorio.TabStop = true;
+            lb_linkRepositorio.Text = "Repositório";
+            lb_linkRepositorio.LinkClicked += lb_linkRepositorio_LinkClicked;
             // 
             // F_LinkLabel
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(914, 600);
-            Margin = new Padding(3, 4, 3, 4);
+            BackColor = SystemColors.ActiveCaption;
+            ClientSize = new Size(800, 450);
+            Controls.Add(lb_linkRepositorio);
             Name = "F_LinkLabel";
             Text = "LinkLabel";
             Load += F_LinkLabel_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private LinkLabel lb_linkRepositorio;
     }
 }

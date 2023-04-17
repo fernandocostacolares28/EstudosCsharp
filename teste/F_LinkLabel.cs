@@ -21,5 +21,10 @@ namespace teste
         {
 
         }
+
+        private void lb_linkRepositorio_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            lb_linkRepositorio.Links.Add(0, 0, "https://github.com/fernandocostacolares28/EstudosCsharp");
+        }
     }
 }
