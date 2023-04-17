@@ -38,6 +38,7 @@
             this.componentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkListBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.componentesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -113,7 +114,8 @@
             // 
             this.componentesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.checkBoxToolStripMenuItem,
-            this.checkListBoxToolStripMenuItem});
+            this.checkListBoxToolStripMenuItem,
+            this.componentesToolStripMenuItem1});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -121,16 +123,23 @@
             // checkBoxToolStripMenuItem
             // 
             this.checkBoxToolStripMenuItem.Name = "checkBoxToolStripMenuItem";
-            this.checkBoxToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.checkBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.checkBoxToolStripMenuItem.Text = "Check Box";
             this.checkBoxToolStripMenuItem.Click += new System.EventHandler(this.checkBoxToolStripMenuItem_Click);
             // 
             // checkListBoxToolStripMenuItem
             // 
             this.checkListBoxToolStripMenuItem.Name = "checkListBoxToolStripMenuItem";
-            this.checkListBoxToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.checkListBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.checkListBoxToolStripMenuItem.Text = "Checked List Box";
             this.checkListBoxToolStripMenuItem.Click += new System.EventHandler(this.checkListBoxToolStripMenuItem_Click);
+            // 
+            // componentesToolStripMenuItem1
+            // 
+            this.componentesToolStripMenuItem1.Name = "componentesToolStripMenuItem1";
+            this.componentesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.componentesToolStripMenuItem1.Text = "Combo Box";
+            this.componentesToolStripMenuItem1.Click += new System.EventHandler(this.componentesToolStripMenuItem1_Click);
             // 
             // Form1
             // 
@@ -170,5 +179,6 @@
         private ToolStripMenuItem componentesToolStripMenuItem;
         private ToolStripMenuItem checkBoxToolStripMenuItem;
         private ToolStripMenuItem checkListBoxToolStripMenuItem;
+        private ToolStripMenuItem componentesToolStripMenuItem1;
     }
 }
