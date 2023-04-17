@@ -100,6 +100,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.componentesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -120,14 +121,14 @@
             // checkBoxToolStripMenuItem
             // 
             this.checkBoxToolStripMenuItem.Name = "checkBoxToolStripMenuItem";
-            this.checkBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkBoxToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.checkBoxToolStripMenuItem.Text = "Check Box";
             this.checkBoxToolStripMenuItem.Click += new System.EventHandler(this.checkBoxToolStripMenuItem_Click);
             // 
             // checkListBoxToolStripMenuItem
             // 
             this.checkListBoxToolStripMenuItem.Name = "checkListBoxToolStripMenuItem";
-            this.checkListBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkListBoxToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.checkListBoxToolStripMenuItem.Text = "Checked List Box";
             this.checkListBoxToolStripMenuItem.Click += new System.EventHandler(this.checkListBoxToolStripMenuItem_Click);
             // 
