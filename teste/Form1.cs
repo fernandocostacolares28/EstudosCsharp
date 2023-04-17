@@ -38,13 +38,13 @@ namespace teste
 
         private void checkBoxToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            F_CheckBox f_CheckBox= new F_CheckBox();
+            F_CheckBox f_CheckBox = new F_CheckBox();
             f_CheckBox.ShowDialog();
         }
 
         private void checkListBoxToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            F_CheckedListBox f_CheckedListBox= new F_CheckedListBox();
+            F_CheckedListBox f_CheckedListBox = new F_CheckedListBox();
             f_CheckedListBox.ShowDialog();
         }
 
@@ -58,6 +58,12 @@ namespace teste
         {
             F_DateTimerPicker f_DateTimerPicker = new F_DateTimerPicker();
             f_DateTimerPicker.ShowDialog();
+        }
+
+        private void linkLinkLabelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_LinkLabel f_LinkLabel = new F_LinkLabel();
+            f_LinkLabel.ShowDialog();
         }
     }
 }

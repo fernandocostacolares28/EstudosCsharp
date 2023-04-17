@@ -28,17 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
+            SuspendLayout();
             // 
             // F_LinkLabel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "F_LinkLabel";
-            this.Text = "LinkLabel";
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(914, 600);
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "F_LinkLabel";
+            Text = "LinkLabel";
+            Load += F_LinkLabel_Load;
+            ResumeLayout(false);
         }
 
         #endregion

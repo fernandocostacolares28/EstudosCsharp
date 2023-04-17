@@ -28,152 +28,162 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.tb_nome = new System.Windows.Forms.TextBox();
-            this.btn_Salvar = new System.Windows.Forms.Button();
-            this.tb_listaNomes = new System.Windows.Forms.TextBox();
-            this.btn_mostrarLista = new System.Windows.Forms.Button();
-            this.btn_LimparLista = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.componentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.checkBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.checkListBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.componentesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.dateTimePickerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
-            this.SuspendLayout();
+            label1 = new Label();
+            tb_nome = new TextBox();
+            btn_Salvar = new Button();
+            tb_listaNomes = new TextBox();
+            btn_mostrarLista = new Button();
+            btn_LimparLista = new Button();
+            menuStrip1 = new MenuStrip();
+            componentesToolStripMenuItem = new ToolStripMenuItem();
+            checkBoxToolStripMenuItem = new ToolStripMenuItem();
+            checkListBoxToolStripMenuItem = new ToolStripMenuItem();
+            componentesToolStripMenuItem1 = new ToolStripMenuItem();
+            dateTimePickerToolStripMenuItem = new ToolStripMenuItem();
+            linkLinkLabelToolStripMenuItem = new ToolStripMenuItem();
+            menuStrip1.SuspendLayout();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nome";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            label1.AutoSize = true;
+            label1.Location = new Point(14, 32);
+            label1.Name = "label1";
+            label1.Size = new Size(50, 20);
+            label1.TabIndex = 0;
+            label1.Text = "Nome";
+            label1.Click += label1_Click;
             // 
             // tb_nome
             // 
-            this.tb_nome.Location = new System.Drawing.Point(12, 42);
-            this.tb_nome.Name = "tb_nome";
-            this.tb_nome.Size = new System.Drawing.Size(215, 23);
-            this.tb_nome.TabIndex = 1;
+            tb_nome.Location = new Point(14, 56);
+            tb_nome.Margin = new Padding(3, 4, 3, 4);
+            tb_nome.Name = "tb_nome";
+            tb_nome.Size = new Size(245, 27);
+            tb_nome.TabIndex = 1;
             // 
             // btn_Salvar
             // 
-            this.btn_Salvar.Location = new System.Drawing.Point(233, 41);
-            this.btn_Salvar.Name = "btn_Salvar";
-            this.btn_Salvar.Size = new System.Drawing.Size(75, 23);
-            this.btn_Salvar.TabIndex = 2;
-            this.btn_Salvar.Text = "Salvar";
-            this.btn_Salvar.UseVisualStyleBackColor = true;
-            this.btn_Salvar.Click += new System.EventHandler(this.btn_Salvar_Click);
+            btn_Salvar.Location = new Point(266, 55);
+            btn_Salvar.Margin = new Padding(3, 4, 3, 4);
+            btn_Salvar.Name = "btn_Salvar";
+            btn_Salvar.Size = new Size(86, 31);
+            btn_Salvar.TabIndex = 2;
+            btn_Salvar.Text = "Salvar";
+            btn_Salvar.UseVisualStyleBackColor = true;
+            btn_Salvar.Click += btn_Salvar_Click;
             // 
             // tb_listaNomes
             // 
-            this.tb_listaNomes.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.tb_listaNomes.Location = new System.Drawing.Point(12, 70);
-            this.tb_listaNomes.Multiline = true;
-            this.tb_listaNomes.Name = "tb_listaNomes";
-            this.tb_listaNomes.ReadOnly = true;
-            this.tb_listaNomes.Size = new System.Drawing.Size(296, 299);
-            this.tb_listaNomes.TabIndex = 3;
+            tb_listaNomes.Font = new Font("Comic Sans MS", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            tb_listaNomes.Location = new Point(14, 93);
+            tb_listaNomes.Margin = new Padding(3, 4, 3, 4);
+            tb_listaNomes.Multiline = true;
+            tb_listaNomes.Name = "tb_listaNomes";
+            tb_listaNomes.ReadOnly = true;
+            tb_listaNomes.Size = new Size(338, 397);
+            tb_listaNomes.TabIndex = 3;
             // 
             // btn_mostrarLista
             // 
-            this.btn_mostrarLista.Location = new System.Drawing.Point(12, 416);
-            this.btn_mostrarLista.Name = "btn_mostrarLista";
-            this.btn_mostrarLista.Size = new System.Drawing.Size(296, 23);
-            this.btn_mostrarLista.TabIndex = 4;
-            this.btn_mostrarLista.Text = "Lista";
-            this.btn_mostrarLista.UseVisualStyleBackColor = true;
-            this.btn_mostrarLista.Click += new System.EventHandler(this.btn_mostrarLista_Click);
+            btn_mostrarLista.Location = new Point(14, 555);
+            btn_mostrarLista.Margin = new Padding(3, 4, 3, 4);
+            btn_mostrarLista.Name = "btn_mostrarLista";
+            btn_mostrarLista.Size = new Size(338, 31);
+            btn_mostrarLista.TabIndex = 4;
+            btn_mostrarLista.Text = "Lista";
+            btn_mostrarLista.UseVisualStyleBackColor = true;
+            btn_mostrarLista.Click += btn_mostrarLista_Click;
             // 
             // btn_LimparLista
             // 
-            this.btn_LimparLista.Location = new System.Drawing.Point(12, 390);
-            this.btn_LimparLista.Name = "btn_LimparLista";
-            this.btn_LimparLista.Size = new System.Drawing.Size(296, 23);
-            this.btn_LimparLista.TabIndex = 5;
-            this.btn_LimparLista.Text = "Limpar";
-            this.btn_LimparLista.UseVisualStyleBackColor = true;
-            this.btn_LimparLista.Click += new System.EventHandler(this.button1_Click);
+            btn_LimparLista.Location = new Point(14, 520);
+            btn_LimparLista.Margin = new Padding(3, 4, 3, 4);
+            btn_LimparLista.Name = "btn_LimparLista";
+            btn_LimparLista.Size = new Size(338, 31);
+            btn_LimparLista.TabIndex = 5;
+            btn_LimparLista.Text = "Limpar";
+            btn_LimparLista.UseVisualStyleBackColor = true;
+            btn_LimparLista.Click += button1_Click;
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.componentesToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(322, 24);
-            this.menuStrip1.TabIndex = 6;
-            this.menuStrip1.Text = "menuStrip1";
+            menuStrip1.BackColor = SystemColors.ActiveCaption;
+            menuStrip1.ImageScalingSize = new Size(20, 20);
+            menuStrip1.Items.AddRange(new ToolStripItem[] { componentesToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Padding = new Padding(7, 3, 0, 3);
+            menuStrip1.Size = new Size(368, 30);
+            menuStrip1.TabIndex = 6;
+            menuStrip1.Text = "menuStrip1";
             // 
             // componentesToolStripMenuItem
             // 
-            this.componentesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.checkBoxToolStripMenuItem,
-            this.checkListBoxToolStripMenuItem,
-            this.componentesToolStripMenuItem1,
-            this.dateTimePickerToolStripMenuItem});
-            this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
-            this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
-            this.componentesToolStripMenuItem.Text = "Componentes";
+            componentesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { checkBoxToolStripMenuItem, checkListBoxToolStripMenuItem, componentesToolStripMenuItem1, dateTimePickerToolStripMenuItem, linkLinkLabelToolStripMenuItem });
+            componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
+            componentesToolStripMenuItem.Size = new Size(115, 24);
+            componentesToolStripMenuItem.Text = "Componentes";
             // 
             // checkBoxToolStripMenuItem
             // 
-            this.checkBoxToolStripMenuItem.Name = "checkBoxToolStripMenuItem";
-            this.checkBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.checkBoxToolStripMenuItem.Text = "Check Box";
-            this.checkBoxToolStripMenuItem.Click += new System.EventHandler(this.checkBoxToolStripMenuItem_Click);
+            checkBoxToolStripMenuItem.Name = "checkBoxToolStripMenuItem";
+            checkBoxToolStripMenuItem.Size = new Size(224, 26);
+            checkBoxToolStripMenuItem.Text = "Check Box";
+            checkBoxToolStripMenuItem.Click += checkBoxToolStripMenuItem_Click;
             // 
             // checkListBoxToolStripMenuItem
             // 
-            this.checkListBoxToolStripMenuItem.Name = "checkListBoxToolStripMenuItem";
-            this.checkListBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.checkListBoxToolStripMenuItem.Text = "Checked List Box";
-            this.checkListBoxToolStripMenuItem.Click += new System.EventHandler(this.checkListBoxToolStripMenuItem_Click);
+            checkListBoxToolStripMenuItem.Name = "checkListBoxToolStripMenuItem";
+            checkListBoxToolStripMenuItem.Size = new Size(224, 26);
+            checkListBoxToolStripMenuItem.Text = "Checked List Box";
+            checkListBoxToolStripMenuItem.Click += checkListBoxToolStripMenuItem_Click;
             // 
             // componentesToolStripMenuItem1
             // 
-            this.componentesToolStripMenuItem1.Name = "componentesToolStripMenuItem1";
-            this.componentesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.componentesToolStripMenuItem1.Text = "Combo Box";
-            this.componentesToolStripMenuItem1.Click += new System.EventHandler(this.componentesToolStripMenuItem1_Click);
+            componentesToolStripMenuItem1.Name = "componentesToolStripMenuItem1";
+            componentesToolStripMenuItem1.Size = new Size(224, 26);
+            componentesToolStripMenuItem1.Text = "Combo Box";
+            componentesToolStripMenuItem1.Click += componentesToolStripMenuItem1_Click;
             // 
             // dateTimePickerToolStripMenuItem
             // 
-            this.dateTimePickerToolStripMenuItem.Name = "dateTimePickerToolStripMenuItem";
-            this.dateTimePickerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.dateTimePickerToolStripMenuItem.Text = "Date Time Picker";
-            this.dateTimePickerToolStripMenuItem.Click += new System.EventHandler(this.dateTimePickerToolStripMenuItem_Click);
+            dateTimePickerToolStripMenuItem.Name = "dateTimePickerToolStripMenuItem";
+            dateTimePickerToolStripMenuItem.Size = new Size(224, 26);
+            dateTimePickerToolStripMenuItem.Text = "Date Time Picker";
+            dateTimePickerToolStripMenuItem.Click += dateTimePickerToolStripMenuItem_Click;
+            // 
+            // linkLinkLabelToolStripMenuItem
+            // 
+            linkLinkLabelToolStripMenuItem.Name = "linkLinkLabelToolStripMenuItem";
+            linkLinkLabelToolStripMenuItem.Size = new Size(224, 26);
+            linkLinkLabelToolStripMenuItem.Text = "Link\\LinkLabel";
+            linkLinkLabelToolStripMenuItem.Click += linkLinkLabelToolStripMenuItem_Click;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(322, 451);
-            this.Controls.Add(this.btn_LimparLista);
-            this.Controls.Add(this.btn_mostrarLista);
-            this.Controls.Add(this.tb_listaNomes);
-            this.Controls.Add(this.btn_Salvar);
-            this.Controls.Add(this.tb_nome);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.MainMenuStrip = this.menuStrip1;
-            this.MaximizeBox = false;
-            this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Principal";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
+            ClientSize = new Size(368, 601);
+            Controls.Add(btn_LimparLista);
+            Controls.Add(btn_mostrarLista);
+            Controls.Add(tb_listaNomes);
+            Controls.Add(btn_Salvar);
+            Controls.Add(tb_nome);
+            Controls.Add(label1);
+            Controls.Add(menuStrip1);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            MainMenuStrip = menuStrip1;
+            Margin = new Padding(3, 4, 3, 4);
+            MaximizeBox = false;
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Principal";
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -190,5 +200,6 @@
         private ToolStripMenuItem checkListBoxToolStripMenuItem;
         private ToolStripMenuItem componentesToolStripMenuItem1;
         private ToolStripMenuItem dateTimePickerToolStripMenuItem;
+        private ToolStripMenuItem linkLinkLabelToolStripMenuItem;
     }
 }

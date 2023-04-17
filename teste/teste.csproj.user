@@ -19,6 +19,9 @@
     <Compile Update="F_DateTimerPicker.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="F_LinkLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="F_ListaNomes.cs">
       <SubType>Form</SubType>
     </Compile>

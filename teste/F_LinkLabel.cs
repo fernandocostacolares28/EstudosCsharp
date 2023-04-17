@@ -16,5 +16,10 @@ namespace teste
         {
             InitializeComponent();
         }
+
+        private void F_LinkLabel_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

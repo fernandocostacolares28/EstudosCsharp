@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z2Izb9gjL8Ntq1sPwALCY2N/z+JKdf1Ty/kNDZnH4cYzM5AbEOQWPr+FoYRbFgTqGd0+TaMCekIpq1P4J6mFQg==",
+  "dgSpecHash": "4gJ4tEKCsG2Nqoz0dUKRXUTxd0TmH1oAABhe3S5WDA+2FhRW4cYsbLlpDHi0blz5D2cWsB9IRAG7IV/1SoHVew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fernando\\Documents\\GitHub\\EstudosCsharp\\teste\\teste.csproj",
+  "projectFilePath": "C:\\GitC#\\EstudosCsharp\\teste\\teste.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
