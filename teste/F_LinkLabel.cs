@@ -24,7 +24,17 @@ namespace teste
 
         private void lb_linkRepositorio_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            lb_linkRepositorio.Links.Add(0, 0, "https://github.com/fernandocostacolares28/EstudosCsharp");
+            System.Diagnostics.Process.Start("C:/Program Files/Google/Chrome/Application/chrome.exe", "https://github.com/fernandocostacolares28/EstudosCsharp");
+        }
+
+        private void lb_calculadora_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("calc.exe");
+        }
+
+        private void lb_multiplos_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
     }
 }
