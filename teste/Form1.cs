@@ -65,5 +65,17 @@ namespace teste
             F_LinkLabel f_LinkLabel = new F_LinkLabel();
             f_LinkLabel.ShowDialog();
         }
+
+        private void listBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_ListBox f_ListBox = new F_ListBox();
+            f_ListBox.ShowDialog();
+        }
+
+        private void listViewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_ListView f_ListView = new F_ListView();   
+            f_ListView.ShowDialog();
+        }
     }
 }

@@ -25,5 +25,11 @@
     <Compile Update="F_ListaNomes.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="F_ListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="F_ListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
